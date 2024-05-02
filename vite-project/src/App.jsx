@@ -4,14 +4,16 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import {Player} from "./components/ui/player"
 import { Header } from './components/ui/player'
+import User from "./components/user/user"
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Header></Header>
-      <Player></Player>
+      {/* <Header></Header> */}
+      <User></User>
+      {/* <Player></Player> */}
     </>
   )
 }
