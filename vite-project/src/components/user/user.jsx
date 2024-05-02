@@ -32,7 +32,7 @@ export default function User() {
       },
       {
         id: "3",
-        titre: "Javascriot",
+        titre: "Javascript",
         exp: 80,
       },
       {
