@@ -1,0 +1,10 @@
+.header{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.img{
+    width: 50%;
+    height: 50%;
+    display: flex;    
+    margin: 50px auto;
+}
