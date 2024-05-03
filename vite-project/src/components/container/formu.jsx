@@ -5,12 +5,16 @@
 import { useState } from "react";
 
 // Ajouter un bouton qui affiche le ‘username’ et ‘email’ dans une boîte d’alerte
+
 //Je déclare ma fonction
 export function SigninForm(){
     //Je déclare ma variable d'état
     const[username,setusername]=useState('')
+    
     const[mail,setmail]=useState('')
+ 
     const[password,setpassword]=useState('')
+  
     //Je crée ma fonction qui éxécute pour que chaque frappe 
     function Login(e){
         const textName=e.target.value;
@@ -18,6 +22,7 @@ export function SigninForm(){
     }
     function Mail(e){
         setmail(e.target.value)
+
     }
     function PassWord(e){
         setpassword(e.target.value)
